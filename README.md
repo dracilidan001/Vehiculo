@@ -39,3 +39,15 @@ Escalabilidad:
 El diseño del programa debe permitir agregar fácilmente nuevas funcionalidades (por ejemplo, más atributos del vehículo).
 
 =========================================================================================================================================
+
+
+ ► Historias de Usuario / Cristerios de Aceptación 
+
+| ID  | ►Historia de Usuario                                                                 | ► Criterios de Aceptación                                                                 |
+|-----|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| HU1 | Como **usuario**, quiero ingresar mi **nombre y edad** para que el sistema me identifique antes de registrar el vehículo. | - El sistema solicita nombre y edad al inicio.<br>- Los datos ingresados se muestran al final junto con los del vehículo. |
+| HU2 | Como **usuario**, quiero ingresar los datos de mi **vehículo** para que el sistema los muestre de forma clara. | - El sistema solicita marca, modelo, cilindrada, tipo de combustible y capacidad.<br>- El sistema imprime en pantalla los valores ingresados. |
+| HU3 | Como **usuario**, quiero que el programa muestre la información de manera **organizada** para distinguir mis datos personales de los del vehículo. | - La salida debe mostrar un bloque con los datos del usuario y otro con los del vehículo. |
+| HU4 | Como **administrador o estudiante**, quiero ejecutar el programa sin usar un **IDE**, solo con `javac` y `java`, para practicar el proceso de compilación manual. | - El programa se compila con `javac NombreArchivo.java`.<br>- El programa se ejecuta con `java NombreArchivo`. |
+| HU5 | Como **desarrollador**, quiero que el código esté **documentado línea por línea**, para comprender fácilmente la lógica y realizar modificaciones futuras. | - Cada línea del código debe tener un comentario claro y conciso.<br>- El repositorio debe incluir documentación detallada. |
+
